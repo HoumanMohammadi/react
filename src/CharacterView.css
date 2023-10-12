@@ -1,0 +1,25 @@
+.character-view {
+    font-size: large;
+    width: 30%;
+    height: 12rem;
+    border: 10px solid black; /* Add 'solid' to specify the border style */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; /* Add some margin for separation */
+    box-sizing: border-box; /* Ensure border is included in the element's total size */
+}
+
+.character-name {
+    font-size: large;
+    text-align: center; /* Center the text */
+    margin-bottom: 10px; /* Add some space between name and image */
+}
+
+.character-view img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    max-height: 100%; /* Ensure image doesn't exceed container height */
+    object-fit: inherit; /* Adjust as needed */
+
+}
